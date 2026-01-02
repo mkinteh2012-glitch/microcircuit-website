@@ -1,9 +1,27 @@
 <script>
-  // This is your data list for the FAQ
+  // --- 1. THE MAIN HEADERS ---
+  const heroTitle = "Microcircuit";
+  const heroSubtitle = "Designing the hardware of the future.";
+
+  // --- 2. THE MISSION / ABOUT ---
+  const missionTitle = "Our Mission";
+  const missionBody = "Microcircuit is a student-led collective focused on open-source hardware. We provide the tools, community, and knowledge to help you move from 'consumer' to 'creator.' Whether it's PCB design, robotics, or vintage tech restoration, we're building it.";
+
+  // --- 3. THE FAQ LIST ---
+  // You can add as many as you want here!
   const faqs = [
-    { q: "What is Microcircuit?", a: "We are a student-led initiative focused on electronics and hardware hacking." },
-    { q: "How do I join?", a: "Check out our GitHub or join the Hack Club Slack to get involved!" },
-    { q: "Do I need experience?", a: "Not at all! We're all about learning by doing." }
+    { 
+      q: "What is this collective?", 
+      a: "A community of students obsessed with hardware, electronics, and making things from scratch." 
+    },
+    { 
+      q: "How do I get involved?", 
+      a: "Join the Hack Club Slack and look for the #microcircuit channel (coming soon) or start a project on our GitHub." 
+    },
+    { 
+      q: "Do I need to be an engineer?", 
+      a: "No. If you can break things and try to fix them, you're one of us." 
+    }
   ];
 </script>
 
