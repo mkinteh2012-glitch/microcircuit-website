@@ -29,6 +29,9 @@
     <h1 class="text-6xl font-black uppercase tracking-tighter mb-4">Microcircuit</h1>
     <p class="text-xl opacity-90">Design a circuit, get a grant to solder it together!</p>
   </header>
+  <div class="max-w-4xl mx-auto mt-8 text-center">
+    <a href="https://iceverychill.fillout.com/microcircuits" target="_blank" rel="noopener noreferrer" class="block w-3/4 max-w-3xl mx-auto px-8 py-6 text-2xl bg-[#10b981] text-[#022c22] font-bold rounded shadow" style="text-decoration:none;">Apply / RSVP</a>
+  </div>
 
   <section class="max-w-2xl mx-auto mt-16">
     <h2 class="text-5xl font-bold mb-8 text-[#10b981] text-center">FAQ</h2>
@@ -69,7 +72,7 @@
             </button>
             {#if slackOpen}
               <div class="px-4 pb-4 text-sm opacity-80">
-                <p>Have questions, DM <a href="https://app.slack.com/client/E09V59WQY1E/dms" target="_blank" rel="noopener noreferrer" style="text-decoration:underline; font-weight:700;">@PenguinMo</a></p>
+                <p>Have questions, DM <a href="https://app.slack.com/client/E09V59WQY1E/dms" target="_blank" rel="noopener noreferrer" style="text-decoration:underline; font-weight:700;">@PenguinMo</a> or <a href="https://app.slack.com/client/E09V59WQY1E/dms" target="_blank" rel="noopener noreferrer" style="text-decoration:underline; font-weight:700;">@Ice(VeryChill)</a></p>
               </div>
             {/if}
           </div>
@@ -81,10 +84,12 @@
             </button>
             {#if emailOpen}
               <div class="px-4 pb-4 text-sm opacity-80">
-                <p>Send us an email: <a href="mailto:mkinteh2012@gmail.com" style="text-decoration:underline; font-weight:700;">mkinteh2012@gmail.com</a></p>
+                <p>Send us an email: <a href="mailto:mkinteh2012@gmail.com" style="text-decoration:underline; font-weight:700;">mkinteh2012@gmail.com</a> or <a href="mailto:lustanleyz@gmail.com" style="text-decoration:underline; font-weight:700;">lustanleyz@gmail.com</a></p>
               </div>
             {/if}
           </div>
+
+          
         </div>
       {/if}
     </div>
