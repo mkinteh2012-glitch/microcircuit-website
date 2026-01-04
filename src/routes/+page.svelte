@@ -26,7 +26,9 @@
 
 <main class="min-h-screen bg-[#022c22] text-[#ecfdf5] font-mono p-8">
   <header class="max-w-4xl mx-auto text-center py-20 border-4 border-[#064e3b] bg-[#065f46] shadow-[8px_8px_0px_0px_#047857]">
-    <h1 class="text-6xl font-black uppercase tracking-tighter mb-4">Microcircuit</h1>
+    <h1 class="mb-4">
+      <img src="/micrologo.png" alt="Microcircuit" class="mx-auto w-48 h-auto" />
+    </h1>
     <p class="text-xl opacity-90">Design a circuit, get a grant to solder it together!</p>
   </header>
   <div class="max-w-4xl mx-auto mt-8 text-center">
